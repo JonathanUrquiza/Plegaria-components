@@ -1,0 +1,51 @@
+:root {
+    /*colors*/
+    --black : #000000;
+    --black-light : #333;
+    --black-lighter : #666;
+    /*Background de temporada*/
+    --bg-light: #ffffff;
+    --bg-solid: #5d1a2e;
+    --bg-solid-hover: #91193d;
+    --bg-opacity: #632f3f88;
+    /*Tipografia*/
+    --roboto-font: 'Roboto', sans-serif;   
+    --base-font: 'bebas', serif;
+    /*font sizes*/
+    --font-display: 4.6rem;
+    --font-jumbo: 3.8rem;
+    --font-xlarge: 3rem;
+    --font-large: 2.4rem;
+    --font-medium-20: 2rem;
+    --font-medium: 1.8rem;
+    --font-small: 1.6rem;
+    --font-xsmall: 1.4rem;
+    --font-xxsmall: 0.8rem;
+    /* Spacings */
+    --spacing-128: 12.8rem;
+    --spacing-100: 10rem;
+    --spacing-68: 6.8rem;
+    --spacing-48: 4.8rem;
+    --spacing-36: 3.6rem;
+    --spacing-28: 2.8rem;
+    --spacing-24: 2.4rem;
+    --spacing-20: 2rem;
+    --spacing-16: 1.6rem;
+    --spacing-12: 1.2rem;
+    --spacing-8: 0.8rem;
+    /*font color*/
+    --color-font: white;
+    /*font-weight*/
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    /*border-radius*/
+    /*font color*/
+    --color-white: white;
+    --color-black: black;
+    --color-red: #5d1a2e;
+    --color-red-light: #80384d;
+    --color-red-dark: #4d0f0f;
+
+}

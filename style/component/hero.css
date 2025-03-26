@@ -1,0 +1,240 @@
+@media screen and (max-width : 1000px) {
+
+    .video-container {
+        width: 100%;
+        height: 100%;
+    }
+    .w-logo {
+        z-index: 3;
+        width: 60px;
+        border-radius: 50%;
+        position: fixed;
+        background-image: radial-gradient(white, white, black);
+        bottom: 2%;
+        right: 8%;
+    }
+    .promo-container {
+
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+        justify-content: start;
+        align-content: center;
+        grid-auto-columns: auto;
+        grid-auto-rows: auto;
+        grid-auto-flow: row;
+    }
+
+    .shop-promo-a {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        grid-column: 0/0;
+        grid-row: 0/0;
+        align-self: center;
+        justify-self: center;
+        
+    }
+    
+    .shop-promo-b {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        grid-column: 0/0;
+        grid-row: 0/0;
+        align-self: center;
+        justify-self: center;
+
+    }
+
+    
+    .promo-image {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        justify-self: center;
+        
+    }
+    
+    .big-promo {
+        position: relative;
+    }
+
+    .big-promo-image-container {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: stretch;
+        align-items: stretch;
+    }
+
+    .promo-links-container {
+        width: fit-content;
+        position: absolute;
+        bottom: 8%;
+        left: 14%;
+        justify-self: start;
+        display: flex;
+        color: var(--color-font);
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .promo-links-title {
+        font-size: 2.5em;
+    }
+
+    .btn-shop {
+        width: max-content;
+        height: fit-content;
+        border-radius: 15px;
+        border: 2px white solid;
+        color: white;
+        padding: 1px 10px;
+        background-color: transparent;
+
+    }
+
+    .big-promo {
+
+        width: 100%;
+        height: 100%;
+        grid-column: 1/4;
+        grid-row: 0/0;
+        justify-self: center;
+        align-self: stretch;
+
+    }
+
+    .big-promo-image-container {
+        width: 100%;
+        height: 98%;
+        align-self: center;
+    }
+
+    .promo-links {
+        position: relative;
+    }
+    .banner-container{
+        display: none;
+    }
+    .hero-grid {
+        display: none;
+    }
+}
+
+@media (min-width: 1001px) and (max-width :1445px) {
+
+
+    .hero-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+
+    .w-logo {
+        z-index: 3;
+        width: 60px;
+        border-radius: 50%;
+        position: fixed;
+        background-image: radial-gradient(white, white, black);
+        bottom: 8%;
+        right: 8%;
+    }
+
+
+    .more-card {
+        text-decoration: underline;
+        font-weight: none;
+        text-align: center;
+        margin-top: 5%;
+        font-size: 0.8rem;
+        letter-spacing: 0.5em;
+        cursor: pointer;
+    }
+
+    .promo-container {
+        display: none;
+    }
+}
+@media screen and (min-width : 1446px) {
+    .promo-container {
+        display: none;
+    }
+}
+
+.video-container {
+    width: 100%;
+    height: 100%;
+}
+
+.video {
+    width: 100%;
+    height: 100vh;
+}
+
+
+.arrivals-container {
+    width: 100%;
+}
+
+
+
+.more-card {
+    text-decoration: underline;
+    font-weight: none;
+    text-align: center;
+    font-size: 0.8rem;
+
+    cursor: pointer;
+}
+.arrivals-text {
+    padding-left: 25px;
+    font-size: var(--font-small);
+    font-family: var(--robot-font);
+    font-weight:var(--font-weight-bold);
+}
+
+.banner-container{
+    width: 100%;
+    position: relative;
+}
+.banner-images {
+    width: 100%;
+    height: 100%;
+}
+.banner-link{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50% ;
+    left: 0;
+}
+.banner-link a {
+    font-size: 5rem;
+    color: white;
+}
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 10px 10px;
+    padding: 1em;
+}
+.w-logo {
+    z-index: 3;
+    width: 100px;
+    border-radius: 50%;
+    position: fixed;
+    background-image: radial-gradient(white, white, black);
+    bottom: 8%;
+    right: 8%;
+}
