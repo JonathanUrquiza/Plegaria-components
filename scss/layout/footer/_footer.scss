@@ -10,17 +10,15 @@ footer {
     color: var(--color-font);
     font-family: var(--base-font);
     border-top: 1px solid black;
+    form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 }
-
 input::placeholder {
     color: var(--bg-solid);
-}
-
-footer form {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
 .input-email {

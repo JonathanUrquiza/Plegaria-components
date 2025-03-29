@@ -16,14 +16,14 @@
     animation-name: marquee;
     animation-play-state: running;
     animation-timing-function: linear;
-}
-.marquee p {
-    width: max-content;
-    display: block;
-    padding: 7px 0px 0px 8px;
-    font-family: var(--base-font);
-    font-size: var(--font-xxsmall);
-   
+    p {
+        width: max-content;
+        display: block;
+        padding: 7px 0px 0px 8px;
+        font-family: var(--base-font);
+        font-size: var(--font-xxsmall);
+       
+    }
 }
 
 
@@ -35,20 +35,20 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         justify-content: space-between;    
-    }
-    .marquee p {
-        display: inline-block;
-        width: max-content;
-        padding: 0px 7px 0px 8px;
-        font-family: var(--base-font);
+        p {
+            display: inline-block;
+            width: max-content;
+            padding: 0px 7px 0px 8px;
+            font-family: var(--base-font);
+        }   
     }
 }
 @media (min-width : 770px) and (max-width :955px) {
     .marquee {
         width: max-content;
-    }
-    .marquee p {
-        padding: 7px 7px 0px 8px;;
-        font-family: var(--base-font);
+        p {
+            padding: 7px 7px 0px 8px;;
+            font-family: var(--base-font);
+        }
     }
 }

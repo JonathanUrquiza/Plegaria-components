@@ -28,28 +28,30 @@
         grid-auto-flow: row;
     }
 
-    .shop-promo-a {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        grid-column: 0/0;
-        grid-row: 0/0;
-        align-self: center;
-        justify-self: center;
+    .shop{
+        &-promo{
+            &-a {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                grid-column: 0/0;
+                grid-row: 0/0;
+                align-self: center;
+                justify-self: center;
+                
+            }
+            &-b {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                grid-column: 0/0;
+                grid-row: 0/0;
+                align-self: center;
+                justify-self: center;
         
+            }
+        }
     }
-    
-    .shop-promo-b {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        grid-column: 0/0;
-        grid-row: 0/0;
-        align-self: center;
-        justify-self: center;
-
-    }
-
     
     .promo-image {
         width: 100%;
@@ -62,34 +64,44 @@
         
     }
     
-    .big-promo {
-        position: relative;
+    .big{
+        &-promo {
+            width: 100%;
+            height: 100%;
+            grid-column: 1/4;
+            grid-row: 0/0;
+            justify-self: center;
+            align-self: stretch;
+            position: relative;
+            &-image{
+                &-container {
+                    width: 100%;
+                    display: flex;
+                    justify-content: stretch;
+                    align-items: stretch;
+                    height: 98%;            
+                }
+            }
+        }
     }
-
-    .big-promo-image-container {
-        width: 100%;
-        height: fit-content;
-        display: flex;
-        justify-content: stretch;
-        align-items: stretch;
+    .promo{
+        &-links{
+            &-container {
+                width: fit-content;
+                position: absolute;
+                bottom: 8%;
+                left: 14%;
+                justify-self: start;
+                display: flex;
+                color: var(--color-font);
+                flex-direction: column;
+                align-items: baseline;
+            }
+            &-title {
+                font-size: 2.5em;
+            }
+        }
     }
-
-    .promo-links-container {
-        width: fit-content;
-        position: absolute;
-        bottom: 8%;
-        left: 14%;
-        justify-self: start;
-        display: flex;
-        color: var(--color-font);
-        flex-direction: column;
-        align-items: baseline;
-    }
-
-    .promo-links-title {
-        font-size: 2.5em;
-    }
-
     .btn-shop {
         width: max-content;
         height: fit-content;
@@ -100,24 +112,6 @@
         background-color: transparent;
 
     }
-
-    .big-promo {
-
-        width: 100%;
-        height: 100%;
-        grid-column: 1/4;
-        grid-row: 0/0;
-        justify-self: center;
-        align-self: stretch;
-
-    }
-
-    .big-promo-image-container {
-        width: 100%;
-        height: 98%;
-        align-self: center;
-    }
-
     .promo-links {
         position: relative;
     }
@@ -170,20 +164,28 @@
     }
 }
 
-.video-container {
-    width: 100%;
-    height: 100%;
-}
-
 .video {
     width: 100%;
     height: 100vh;
+    &-container {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 
-.arrivals-container {
-    width: 100%;
+.arrivals{
+    &-container {
+        width: 100%;
+    }
+    &-text {
+        padding-left: 25px;
+        font-size: var(--font-small);
+        font-family: var(--robot-font);
+        font-weight:var(--font-weight-bold);
+    }
 }
+
 
 
 
@@ -192,34 +194,30 @@
     font-weight: none;
     text-align: center;
     font-size: 0.8rem;
-
     cursor: pointer;
-}
-.arrivals-text {
-    padding-left: 25px;
-    font-size: var(--font-small);
-    font-family: var(--robot-font);
-    font-weight:var(--font-weight-bold);
+
 }
 
-.banner-container{
-    width: 100%;
-    position: relative;
-}
-.banner-images {
-    width: 100%;
-    height: 100%;
-}
-.banner-link{
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 50% ;
-    left: 0;
-}
-.banner-link a {
-    font-size: 5rem;
-    color: white;
+.banner{
+    &-container{
+        width: 100%;
+        position: relative;
+    }
+    &-images {
+        width: 100%;
+        height: 100%;
+    }
+    &-link{
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 50% ;
+        left: 0;
+        a {
+            font-size: 5rem;
+            color: white;
+        }
+    }
 }
 .grid-container {
     width: 100%;

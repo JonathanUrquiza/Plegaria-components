@@ -1,0 +1,15 @@
+.header {
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    &-banner {
+        width: 100%;
+        overflow: hidden;
+        background-color: var(--bg-solid);
+        color: var(--color-font);
+        height: 35px;
+        z-index: 0;
+    }
+}

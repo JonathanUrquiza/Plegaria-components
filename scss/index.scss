@@ -1,0 +1,24 @@
+/*EXTERNALS*/
+@use 'base/fontFamily';
+/*MISCELANEOUS*/
+/* normalize */
+@use 'base/reset';
+/* variable */
+@use 'utils/variable';
+/* animations */
+@use'animation/animation';
+
+/*COMPONENTS*/
+@use 'layout/header/banner';
+@use 'layout/header/header';
+@use 'component/logo';
+@use 'component/navbar';
+@use 'layout/main/main';
+@use 'component/card'; 
+@use 'component/carrousel';
+@use 'layout/footer/footer';
+@use 'component/login';
+@use 'component/menuSearch';
+@use 'component/cart';
+@use 'component/product';
+@use 'pages/about';
