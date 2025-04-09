@@ -905,12 +905,12 @@ select {
 @media screen and (max-width: 1000px) {
   .card {
     width: 100%;
-    padding: 1px;
-    display: flex;
-    align-self: center;
     height: fit-content;
-    justify-self: center;
+    display: flex;
     flex-direction: column;
+    cursor: pointer;
+    justify-self: stretch;
+    align-self: stretch;
   }
   .card-container {
     width: 98%;
@@ -2275,6 +2275,44 @@ form {
   .about-image {
     width: 100%;
   }
+}
+.marca {
+  height: max-content;
+  width: max-content;
+  text-align: center;
+  font-family: var(--roboto-font);
+  border-radius: 60%;
+}
+.marca-container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  padding: 25px 25px 15px 25px;
+  border-radius: 50%;
+  margin: 120px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(184, 49, 49, 0.5) 100%);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+.marca-origen {
+  letter-spacing: 15px;
+  font-size: 20px;
+  color: black;
+}
+.marca-titulo {
+  letter-spacing: 5px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Bungee Spice", sans-serif;
+}
+.marca-slogan {
+  font-size: 15px;
+  letter-spacing: 10px;
+  text-align: center;
+  color: black;
 }
 
 /*# sourceMappingURL=index.css.map */

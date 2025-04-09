@@ -1,13 +1,18 @@
+
+
 @media screen and (max-width : 1000px) {
 
-    .card {
+    %card{
         width: 100%;
-        padding: 1px;
-        display: flex;
-        align-self: center;
         height: fit-content;
-        justify-self: center;
+        display: flex;
         flex-direction: column;
+        cursor: pointer;
+        justify-self: stretch;
+        align-self: stretch;
+    }
+    .card {
+        @extend %card;
         &-container {
             width: 98%;
             display: grid;

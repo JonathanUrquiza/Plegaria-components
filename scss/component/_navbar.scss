@@ -156,15 +156,17 @@ select {
         }
     }
 }
-.title-undermenu {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    align-items: center;
-    justify-content: space-around;
-    font-family: var(--roboto-font);
-    font-weight: var(--font-weight-bold);
+.title{
+    &-undermenu {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        align-items: center;
+        justify-content: space-around;
+        font-family: var(--roboto-font);
+        font-weight: var(--font-weight-bold);
+}
 }
 .collection{
     &-undermenu {

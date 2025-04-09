@@ -1,0 +1,41 @@
+.marca{
+    height: max-content;
+    width: max-content;
+    text-align: center;
+    font-family: var(--roboto-font);
+
+    border-radius: 60%;
+    &-container{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        padding: 25px 25px 15px 25px;
+        border-radius: 50%;
+        margin: 120px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(184, 49, 49, 0.5) 100%);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    }
+    &-origen{
+        letter-spacing: 15px;
+        font-size: 20px;
+        color: black;
+    }
+    &-titulo{
+        letter-spacing: 5px;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        font-family: "Bungee Spice", sans-serif;
+    
+    }
+    &-slogan{
+        font-size: 15px;
+        letter-spacing: 10px;
+        text-align: center;
+        color: black;
+    }
+    
+}
